@@ -11,10 +11,11 @@ const IGStory: React.FC = () => {
           <Loading />
         </div>
       )}
-      {!isLoading && data?.map((item) => {
-        const { id, name, avatar } = item;
-        return <Item key={id} name={name} avatar={avatar} />;
-      })}
+      {!isLoading &&
+        data?.map((item) => {
+          const { id, name, avatar } = item;
+          return <Item key={id} name={name} avatar={avatar} />;
+        })}
     </div>
   );
 };
