@@ -1,6 +1,6 @@
 import IGHeader from "components/IGHeader";
 import IGContainer from "components/IGContainer";
-import IGStory from "./components/IGStory/IGStory";
+import IGStory from "./components/IGStory";
 import IGPost from "./components/IGPost";
 import IGProfile from "./components/IGProfile";
 
